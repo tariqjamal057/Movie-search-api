@@ -1,0 +1,9 @@
+[MASTER]
+disable = import-error, wrong-import-position, ungrouped-imports, too-few-public-methods, wrong-import-order, no-name-in-module, attribute-defined-outside-init, duplicate-code, cyclic-import, unused-wildcard-import
+
+# Specify the maximum allowed line length
+max-line-length = 99
+
+[BASIC]
+# Good variable names which should always be accepted, separated by a comma.
+good-names=app_config

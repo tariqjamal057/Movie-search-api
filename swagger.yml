@@ -1,0 +1,18 @@
+openapi: 3.0.3
+info:
+  title: Sample REST APIs using Flask, OpenAPI and Connexion
+  description: Sample REST APIs using Flask, OpenAPI and Connexion
+  version: "1.0.0"
+servers:
+  - url: "/api"
+    description: Rest Server showing Swagger and Connexion capability
+paths:
+  /:
+    get:
+      operationId: views.view.home
+      tags:
+        - "People"
+      summary: "Read the list of people"
+      responses:
+        "200":
+          description: "Successfully read people list"
